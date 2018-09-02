@@ -1,0 +1,145 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GDF - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/GDF.res" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\GDF.rc"" 
+Creating temporary file "C:\DOCUME~1\Minsub\Local Settings\Temp\RSP199.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GDF.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\DigLayerList.cpp"
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\GDF.cpp"
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\GDFDoc.cpp"
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\IndexMapSheet.cpp"
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\Layer.cpp"
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\LayerList.cpp"
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\MainFrm.cpp"
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\scaler.cpp"
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\Sheet.cpp"
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\SheetIndexMap.cpp"
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\SheetLayer.cpp"
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\oobject.cpp"
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\Minsub\Local Settings\Temp\RSP199.tmp"" 
+Creating temporary file "C:\DOCUME~1\Minsub\Local Settings\Temp\RSP19A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\GDFView.cpp"
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\Shape\Labeler.cpp"
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\Shape\LayerManager.cpp"
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\Shape\Shapefile.cpp"
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\Shape\SHPLayer.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\Minsub\Local Settings\Temp\RSP19A.tmp"" 
+Creating temporary file "C:\DOCUME~1\Minsub\Local Settings\Temp\RSP19B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GDF.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\Minsub\Local Settings\Temp\RSP19B.tmp"" 
+Creating temporary file "C:\DOCUME~1\Minsub\Local Settings\Temp\RSP19C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/GDF.pdb" /debug /machine:I386 /out:"Debug/GDF.exe" /pdbtype:sept 
+".\Debug\DigLayerList.obj"
+".\Debug\GDF.obj"
+".\Debug\GDFDoc.obj"
+".\Debug\GDFView.obj"
+".\Debug\IndexMapSheet.obj"
+".\Debug\Layer.obj"
+".\Debug\LayerList.obj"
+".\Debug\MainFrm.obj"
+".\Debug\scaler.obj"
+".\Debug\Sheet.obj"
+".\Debug\SheetIndexMap.obj"
+".\Debug\SheetLayer.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Labeler.obj"
+".\Debug\LayerManager.obj"
+".\Debug\Shapefile.obj"
+".\Debug\SHPLayer.obj"
+".\Debug\oobject.obj"
+".\Debug\ortree.obj"
+".\Debug\GDF.res"
+]
+Creating command line "link.exe @"C:\DOCUME~1\Minsub\Local Settings\Temp\RSP19C.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DigLayerList.cpp
+GDF.cpp
+GDFDoc.cpp
+IndexMapSheet.cpp
+Layer.cpp
+LayerList.cpp
+MainFrm.cpp
+scaler.cpp
+Sheet.cpp
+SheetIndexMap.cpp
+SheetLayer.cpp
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\SheetLayer.cpp(187) : warning C4805: '!=' : unsafe mix of type 'bool' and type 'int' in operation
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\SheetLayer.cpp(189) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\SheetLayer.cpp(196) : warning C4805: '!=' : unsafe mix of type 'bool' and type 'int' in operation
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\SheetLayer.cpp(198) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+oobject.cpp
+ortree.cpp
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(818) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(818) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(819) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(819) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(821) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(821) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(822) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(822) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(994) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(994) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(994) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(995) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(995) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(995) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(996) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(996) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(996) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(997) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(997) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(997) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(1001) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(1001) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(1001) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(1002) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(1002) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(1002) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(1003) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(1003) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(1003) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(1004) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(1004) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+C:\Documents and Settings\Minsub\πŸ≈¡ »≠∏È\123\GDF\R_Tree\ortree.cpp(1004) : warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+Generating Code...
+Compiling...
+GDFView.cpp
+Labeler.cpp
+LayerManager.cpp
+Shapefile.cpp
+c:\documents and settings\minsub\πŸ≈¡ »≠∏È\123\gdf\shape\shapefile.cpp(236) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+c:\documents and settings\minsub\πŸ≈¡ »≠∏È\123\gdf\shape\shapefile.cpp(237) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+c:\documents and settings\minsub\πŸ≈¡ »≠∏È\123\gdf\shape\shapefile.cpp(259) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+c:\documents and settings\minsub\πŸ≈¡ »≠∏È\123\gdf\shape\shapefile.cpp(260) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+c:\documents and settings\minsub\πŸ≈¡ »≠∏È\123\gdf\shape\shapefile.cpp(296) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+c:\documents and settings\minsub\πŸ≈¡ »≠∏È\123\gdf\shape\shapefile.cpp(297) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+SHPLayer.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+GDF.exe - 0 error(s), 42 warning(s)
+</pre>
+</body>
+</html>
